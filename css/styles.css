@@ -1,0 +1,155 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+body {
+  font-family: Montserrat;
+}
+h1 {
+  font-family: "Montserrat", serif;
+  
+  font-weight: 900;
+  size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: Montserrat;
+  font-weight: 700;
+  size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+.navbar-brand {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+.down-buttons {
+  margin: 5% 3% 2% 0;
+}
+.image {
+  width: 15%;
+  transform: rotate(25deg);
+  position:absolute;
+  right: 23%;
+}
+@media (max-width: 991px){
+  #title{
+    text-align: center;
+  }
+  .image{
+    position:static;
+    transform: rotate(0);
+    width: 50%;
+
+  }
+}
+/*Features*/
+
+h3 {
+  font-family: "Montserrat-Bold";
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.fea-para {
+  color: #8f8f8f;
+  text-align: center;
+}
+#features {
+  padding: 7% 15% 5%;
+  background-color: #fff;
+  position: relative;
+
+}
+.icon {
+  color: #ef8172;
+  margin: 10px 40%;
+}
+.icon:hover {
+  color: #43c85ae8;
+}
+/*testimonials*/
+#testimonials{
+  
+  text-align: center;
+  color:#fff;
+  background-color: #ef8172;
+
+}
+.carousel-item{
+  padding: 7% 12%;
+  
+}
+.testimonial-heading{
+  width:50%;
+  margin-left: 20%;
+  
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/*Pricing*/
+#pricing{
+  padding: 4%;
+  text-align: center;
+}
+.pricing-col{
+  padding: 2% 3%;
+}
+
+/* copy to action */
+#cta-h3{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 2rem;
+  color: #fff;
+  
+ 
+  
+}
+#cta{
+  
+  background-color: #ff4c68;
+  text-align: center;
+  margin:0 5%; 
+  padding: 7% 15%;
+  
+}
+ 
+#footer{
+
+  text-align: center;
+  padding: 7% 15%;
+
+}
+.social{
+  color: black;
+  margin: 7px 5px;
+}
+.social:hover{
+  color: red;
+}
